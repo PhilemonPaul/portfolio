@@ -14,8 +14,7 @@ import {
   Boxes,
   FileCode,
   Terminal,
-  Coffee,
-  ArrowRight
+  Coffee
 } from 'lucide-react';
 import './index.css';
 
@@ -144,7 +143,7 @@ function App() {
 
         {/* --- PROJECTS SECTION --- */}
         <section id="projects">
-          <h2 ref={revealRef}>Selected Works</h2>
+          <h2 ref={revealRef}>Projects</h2>
           <div className="projects-grid">
 
             <div className="glass-card project-card" ref={revealRef}>
@@ -161,7 +160,6 @@ function App() {
                 </div>
                 <div className="project-links">
                   <a href="#"><Github size={18} /> Code</a>
-                  <a href="#"><ArrowRight size={18} /> Live Demo</a>
                 </div>
               </div>
             </div>
@@ -180,7 +178,6 @@ function App() {
                 </div>
                 <div className="project-links">
                   <a href="#"><Github size={18} /> Code</a>
-                  <a href="#"><ArrowRight size={18} /> Live Demo</a>
                 </div>
               </div>
             </div>
@@ -199,7 +196,6 @@ function App() {
                 </div>
                 <div className="project-links">
                   <a href="#"><Github size={18} /> Code</a>
-                  <a href="#"><ArrowRight size={18} /> Live Demo</a>
                 </div>
               </div>
             </div>
@@ -218,7 +214,6 @@ function App() {
                 </div>
                 <div className="project-links">
                   <a href="#"><Github size={18} /> Code</a>
-                  <a href="#"><ArrowRight size={18} /> Live Demo</a>
                 </div>
               </div>
             </div>
